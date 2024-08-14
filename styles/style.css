@@ -1,0 +1,276 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+.header-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #db4444;
+}
+
+.nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: justify;
+
+      -ms-flex-pack: justify;
+
+          justify-content: space-between;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* align-items: center; */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav-desc {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 48px;
+}
+
+.main {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.main__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+}
+.img {
+  width: 170px;
+  height: 145px;
+  border: 1px solid #0000004d;
+  left: 57px;
+  padding: 25px 57px 64px 57px;
+}
+
+.main-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.Computers {
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 25px 56px 64px 58px;
+  left: 58px;
+}
+
+.computer-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.SmartWatch {
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 25px 57px 64px 57px;
+}
+
+.SmartWatch-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.HeadPhones {
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 25px 57px 64px 57px;
+  left: 57px;
+}
+
+.HeadPhones-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.gaming {
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 25px 57px 64px 57px;
+}
+.gaming-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.section {
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+.left-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #db4444;
+  line-height: 20px;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.right-button {
+  width: 159px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 48px;
+  gap: 10px;
+  background-color: #db4444;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+  border: none;
+}
+.right-button:hover {
+  color: rebeccapurple;
+}
+
+.images {
+  margin-top: 60px;
+  margin-bottom: 140px;
+  gap: 30px;
+}
+
+.red {
+  width: 270px;
+  height: 210px;
+  background-color: #f5f5f5;
+  margin-top: 16px;
+}
+
+.red-title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footer {
+  margin-top: 177px;
+  margin-bottom: 71px;
+  background-color: black;
+}
+
+
+.footer-title {
+  margin-top: 69px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgba(71, 180, 134, 1);
+}
+
+.footer-desc {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 40px;
+  color: #FAFAFA;
+}
+
+.footer-button {
+  width: 171px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 48px;
+  gap: 10px;
+  background-color: #00ff66;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fafafa;
+  border: none;
+}
+.footer img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
